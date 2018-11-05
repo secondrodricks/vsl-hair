@@ -229,10 +229,10 @@ a:focus{
 #home .overlay{
 	background: rgba(34, 34, 34, 0.30);
   height: auto;
-  min-height: 500px;
+
   padding-top: 20px;
   color: #ffffff;
-  margin-top: -20px;
+
 }
 
 
@@ -871,14 +871,23 @@ nav#footer{
 
 
 @media (max-width:676px) {
-	#head-title{
-		font-size:28px;
-	}
+
 	.header-text.btn{
 		padding: -10px 30px 0px 30px;
 		height: 100px;
 	}
 	h1#head-title2 {
 		    margin-top: 31px !important;
+	}
+
+}
+
+@media (max-width:525px) {
+	.down-btn.page-scroll {
+		display:none;
+	}
+	.nopadding {
+
+	    margin-left: 6px;
 	}
 }
