@@ -395,9 +395,9 @@ a.down-btn span.fa.fa-angle-down {
 }
 
 #overview-video2 {
-	background: url(../img/three.jpg);
+	background: url(../img/new.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: 0px 5%;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	text-align: center;
@@ -413,9 +413,9 @@ a.down-btn span.fa.fa-angle-down {
 
 
 #overview-video {
-	background: url(../img/new.jpg);
+	background: url(../img/three.jpg);
 	background-size: cover;
-	background-position: 0px 5%;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	text-align: center;
