@@ -227,7 +227,7 @@ a:focus{
 	color: #ffffff;
 }
 #home .overlay{
-	background: rgba(34, 34, 34, 0.30);
+	/* background: rgba(34, 34, 34, 0.30); */
   height: auto;
 
   padding-top: 20px;
@@ -395,9 +395,9 @@ a.down-btn span.fa.fa-angle-down {
 }
 
 #overview-video2 {
-	background: url(../img/new-one.jpg);
+	background: url(../img/three.jpg);
 	background-size: cover;
-	background-position: center 0px bottom 0px;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	text-align: center;
@@ -413,9 +413,9 @@ a.down-btn span.fa.fa-angle-down {
 
 
 #overview-video {
-	background: url(../img/three.jpg);
+	background: url(../img/new.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: 0px 5%;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	text-align: center;
@@ -512,7 +512,7 @@ a.btn.go-to-btn:hover{
 }
 
 #pics {
-  margin-left: 68px;
+  margin:0;
 
 }
 .img-responsive {
@@ -522,7 +522,7 @@ a.btn.go-to-btn:hover{
 .portfolio-item .hover-bg{
 	width: 220px;
   height: 220px;
-  /* margin-left: 1em; */
+	margin:auto;
 	overflow: hidden;
 	position: relative;
 
@@ -530,11 +530,18 @@ a.btn.go-to-btn:hover{
 
 }
 
+/* @media (max-width:676px) {
+	.portfolio-item .hover-bg{
+		width: 160px;
+		height: 160px;
+	}
+} */
+
 .portfolio-item-2 .hover-bg{
 	height: 300px;
 	overflow: hidden;
 	position: relative;
-	margin-right: .1em;
+	margin-bottom: 5px;
 
 }
 
@@ -890,4 +897,11 @@ nav#footer{
 
 	    margin-left: 6px;
 	}
+}
+
+@media (max-width: 767px) {
+  .input-position input {
+    margin: 0 auto;
+    display: block;
+  }
 }
