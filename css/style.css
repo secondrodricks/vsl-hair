@@ -536,6 +536,9 @@ a.btn.go-to-btn:hover{
 		height: 160px;
 	}
 } */
+.pull-left {
+    margin-top: 0px;
+}
 
 @media (max-width:992px) {
 	.pt-30 {
@@ -879,7 +882,7 @@ nav#footer{
 }
 
 .pull-right {
-  margin-top: -50px;
+  margin-top: 0px;
 }
 
 
